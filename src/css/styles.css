@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'San Francisco Display Regular';
+    src: url('./../assets/fonts/SanFrancisco/SFUIDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'San Francisco Display Regular';
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #5f5f5f;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #424242;
+}
+
+#calculator{
+    padding: 10px;
+    min-width: 30%;
+    background-color: #252525;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-1{
+    padding: 10px;
+    margin: 2px;
+    width: 50px;
+    color: #e0e0e0;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.btn-2{
+    padding: 10px;
+    margin: 2px;
+    width: 108px;
+    color: #e0e0e0;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.btn-2:hover {
+    filter: brightness(85%);
+}
+
+.btn-1:hover {
+    filter: brightness(85%);
+}
+
+.btn-function{
+    background-color: #494949;
+}
+
+.btn-function sup{
+    background-color: #494949;
+}
+
+.btn-function sub{
+    background-color: #494949;
+}
+
+.btn-number{
+    background-color: #757677;
+}
+
+.btn-operation{
+    background-color: #ff9e0a;
+}
+
+#calculator-input{
+    height: 50px;
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    font-size: large;
+    font-weight: lighter;
+}
